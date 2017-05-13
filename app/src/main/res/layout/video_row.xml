@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:scaleType="centerCrop"
+        android:layout_height="@dimen/VideoPreviewHeight"
+        android:id="@+id/img"
+        android:cropToPadding="true"
+
+        android:src="@drawable/women1"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save OffLine"
+        android:id="@+id/saveofflinebtn"
+        android:layout_marginLeft="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black"
+        android:textColor="@android:color/white"
+        android:layout_alignBottom="@+id/img"
+        android:hint="@string/app_name"
+        android:id="@+id/Titletext"
+        android:textSize="@dimen/VideoTitletextSize"
+        android:textAlignment="center"
+        android:padding="@dimen/Padding" />
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/viewcountTextView"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:hint="ViewCount"-->
+        <!--android:background="@android:color/white"-->
+        <!--android:textSize="@dimen/SecondaryTextSize"-->
+        <!--android:textColor="@color/colorPrimaryDark"-->
+        <!--android:layout_marginLeft="@dimen/fab_margin"-->
+        <!--android:padding="@dimen/Padding"/>-->
+
+
+</RelativeLayout>

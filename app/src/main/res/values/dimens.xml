@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="VideoPreviewHeight">200dp</dimen>
+    <dimen name="VideoTitletextSize">20sp</dimen>
+    <dimen name="Padding">5dp</dimen>
+    <dimen name="SecondaryTextSize">15sp</dimen>
+    <dimen name="ProfilePicHeight">40dp</dimen>
+    <dimen name="MarginTop">5dp</dimen>
+    <dimen name="PrayButtonHeight">40dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

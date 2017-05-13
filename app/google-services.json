@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "233463974295",
+    "firebase_url": "https://aartinew-9b6cd.firebaseio.com",
+    "project_id": "aartinew-9b6cd",
+    "storage_bucket": "aartinew-9b6cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233463974295:android:0ca28192e1aa99af",
+        "android_client_info": {
+          "package_name": "com.example.siddharth.divinity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "233463974295-9b2hlj6bsao6ur72ujn354jo1qj1ct9h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.siddharth.divinity",
+            "certificate_hash": "aa5087d37b4efea7cc5a0126ab2b52d43e050d18"
+          }
+        },
+        {
+          "client_id": "233463974295-v2hkrbmf86kblgeg0e2mk240109in3lk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdvc8MEqfjvpIhL71qhMoqGlSZ26YfyVc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "233463974295-v2hkrbmf86kblgeg0e2mk240109in3lk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

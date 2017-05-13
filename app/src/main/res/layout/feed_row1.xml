@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="@dimen/SecondaryTextSize"
+            android:id="@+id/videotag"
+            android:text="@string/videoon"
+            android:layout_column="1"/>
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginLeft="150dp"
+            android:textSize="@dimen/SecondaryTextSize"
+            android:id="@+id/videodate"
+            android:text="24 hrs ago"
+
+            android:layout_column="2"/>
+
+
+
+    </TableRow>
+
+    <TableRow>
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_height="@dimen/ProfilePicHeight"
+            android:id="@+id/profilePic"
+            android:src="@drawable/img"
+            android:layout_column="1"/>
+         />
+
+        <TextView
+            android:id="@+id/profilename"
+            android:text="Username"
+            android:textSize="@dimen/VideoTitletextSize"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:layout_marginLeft="5dp"/>
+            <!--android:layout_column="2"/>-->
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"/>
+
+        <TextView
+android:padding="@dimen/Padding"
+            android:textSize="@dimen/SecondaryTextSize"
+            android:layout_width="wrap_content"
+            android:layout_column="2"
+
+            android:text="This is the description of the userPost complete Post Rhymes aarti and stuff must listen"
+            android:id="@+id/userpost"/>
+
+
+<RelativeLayout>
+
+
+        <ImageView
+            android:layout_marginTop="@dimen/MarginTop"
+            android:layout_height="200dp"
+            android:id="@+id/uservideo"
+            android:src="@drawable/women1"
+            android:layout_column="1"
+            android:layout_width="wrap_content" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Play"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:background="@drawable/img"/>
+</RelativeLayout>
+
+<LinearLayout
+    android:orientation="horizontal">
+    <Button
+        android:layout_width="fill_parent"
+        android:drawableLeft="@mipmap/ic_launcher"
+        android:text="PRAY"
+        android:layout_height="@dimen/PrayButtonHeight"
+        android:layout_weight="0.5"/>
+
+    <Button
+        android:layout_weight="0.5"
+        android:layout_width="fill_parent"
+        android:drawableLeft="@mipmap/ic_launcher"
+        android:text="Comment"
+        android:layout_height="@dimen/PrayButtonHeight"
+        />
+</LinearLayout>
+
+
+
+
+
+
+
+</TableLayout>
+
+    <!--<TableRow-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="fill_parent">-->
+
+
+
+
+
+
+
+
+
+    <!--</TableRow>-->
+
+    <!--<TableRow-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="fill_parent">-->
+
+            <!--/>-->
+
+            <!--/>-->
+    <!--</TableRow>-->
+
+
+    <!--<TableRow-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="fill_parent">-->
+
+
+
+    <!--</TableRow>-->
+
+
+    <!--<TableRow-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="fill_parent">-->
+
+
+    <!--</TableRow>-->
+

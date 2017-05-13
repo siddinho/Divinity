@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/Padding"
+    android:background="@android:color/white"
+    >
+<ImageView
+
+    android:layout_marginTop="@dimen/MarginTop"
+    android:layout_height="@dimen/ProfilePicHeight"
+    android:layout_width="wrap_content"
+    android:src="@drawable/img"
+    android:id="@+id/usercommentprofilepic"/>
+
+    <TextView
+        android:padding="@dimen/Padding"
+        android:layout_marginTop="@dimen/MarginTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UserName"
+        android:id="@+id/usernamecomment"
+        android:textStyle="bold"
+        android:layout_marginLeft="@dimen/MarginTop"
+        android:textSize="@dimen/SecondaryTextSize"
+        android:layout_toRightOf="@+id/usercommentprofilepic"/>
+    <LinearLayout
+        android:id="@+id/l1"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/MarginTop"
+        android:padding="@dimen/Padding"
+        android:layout_below="@+id/usercommentprofilepic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:padding="@dimen/Padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Great Video Share. Amazing Video. Amazing Application. Kudos Team AARTI Boys"
+        />
+        <Button
+            android:id="@+id/upvotebtn"
+            android:layout_marginTop="@dimen/MarginTop"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/PrayButtonHeight"
+            android:text="UPVOTE"
+
+            android:background="@color/colorPrimaryDark"
+            android:textSize="@dimen/SecondaryTextSize"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+    <TextView
+        android:padding="@dimen/Padding"
+        android:layout_marginTop="@dimen/MarginTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upvote Count"
+        android:id="@+id/upvotecount"
+        android:textStyle="bold"
+        android:layout_marginLeft="@dimen/MarginTop"
+        android:textSize="@dimen/SecondaryTextSize"
+        android:layout_alignRight="@+id/l1"/>
+
+</RelativeLayout>

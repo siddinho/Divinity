@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Divinity</string>
+    <string name="GeneralTableCellHeight">50dp</string>
+    <string name="videoon">Video Posted :</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+</resources>
